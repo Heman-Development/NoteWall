@@ -2,7 +2,7 @@
 
 Sticky notes browser application with ability to store the notes created in the Local Storage. Built with HTML, CSS, Vanilla JavaScript.
 
-######[Demo it here!](https://heman-development.github.io/NoteWall/)
+[Demo it here!](https://heman-development.github.io/NoteWall/)
 
 # Built with:   
 
