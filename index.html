@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <title>Note Wall</title>
+</head>
+<body>
+
+  <header>
+    <ul class="head">
+        <li id="newNoteBtn" title="New Note"><i class="fas fa-plus"></i></li>
+        <li id="deleteAllBtn" title="Delete all"><i class="far fa-trash-alt"></i></li>
+        <li id="infoBtn" title="User Manual"><i class="fas fa-info"></i></li>
+    </div>
+</header>
+
+<div>
+  <div class=" hide infoContainer">
+      <h4>Nav buttons:</h4>
+      <ol>
+          <li> <i class="fas fa-plus"></i> button adds a new sticky note.</li>
+          <li> <i class="far fa-trash-alt"></i> !!! Deletes all notes from the board & local storage. This action cannot be undone!</li>
+          <li> <i class="fas fa-info"></i> shows user manual.</li>
+      </ol>
+      <h4>Note buttons:</h4>
+      <ol>
+          <li> <i class="far fas fa-palette"></i> Let's you choose colors of your sticky note.</li>
+          <li> <i class="far fa-trash-alt"></i> button deletes the sticky note from the board and local storage. This action cannot be undone.</li>
+          <li> The text area is meant for your text.</li>
+      </ol>
+      <h4>Have Fun! 😊</h4>
+  </div>
+</div>
+
+<main>
+  <div id="0" class="wallNote hide">
+      <div class="noteHead">
+          <ul class="headBtns">
+              <li class="list-item"><i class="far fas fa-palette colorBtn"></i></li>
+              <li class="list-item"><i class="delete far fa-trash-alt"></i></li>
+          </ul>
+          <div class="noteColor">
+              <div class="noteColor1"></div>
+              <div class="noteColor2"></div>
+              <div class="noteColor3"></div>
+              <div class="noteColor4"></div>
+              <div class="noteColor5"></div>
+          </div>
+      </div>
+      <div class="noteContentContainer">
+          <textarea class="noteContent" placeholder="Your notes..."></textarea>
+      </div>
+  </div>
+</main>
+  
+<script src="index.js"></script>
+</body>
+</html>
